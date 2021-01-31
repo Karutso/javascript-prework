@@ -32,3 +32,21 @@ if(randomNumber == 3){
 }
 printMessage('Mój ruch to: ' + computerMove);
 
+if ( playerMove == 'nieznany ruch'){
+    printMessage('nieprawidłowy numer');
+} else if ( computerMove == 'kamień' && playerMove == 'papier'){
+    printMessage('Ty wygrywasz!');
+} else if ( computerMove == 'kamień' && playerMove == 'nożyce'){
+    printMessage('komputer wygrywa!');
+} else if ( computerMove == 'papier' && playerMove == 'kamień'){
+    printMessage('Komputer wygrywa!');
+} else if ( computerMove == 'papier' && playerMove == 'nożyce'){
+    printMessage('Ty wygrywasz!');
+} else if ( computerMove == 'nożyce' && playerMove == 'papier'){
+    printMessage('Komputer wygrywa!');
+} else if ( computerMove == 'nożyce' && playerMove == 'kamień'){
+        printMessage('Ty wygrywasz!');
+} else {
+    printMessage('REMIS!');
+}
+ 
