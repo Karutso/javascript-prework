@@ -10,11 +10,11 @@ function clearMessages(){
 
 function getMoveName(argMoveId){
 	if(argMoveId == 1){
-	  return 'kamień';
+	    return 'kamień';
 	} if(argMoveId == 2){
 		return 'papier';
 	} if(argMoveId == 3){
-	return 'nożyce';
+		return 'nożyce';
 	  } else{
 	  printMessage('Nie znam ruchu o id ' + argMoveId + '.');
 	  return 'nieznany ruch';
@@ -39,3 +39,5 @@ function getMoveName(argMoveId){
 		return printMessage('REMIS!');
 	}
   }
+
+ 
